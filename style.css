@@ -1,0 +1,311 @@
+body{
+  background-color: #283618;
+  font-family: "Zain", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+
+}
+
+
+.title{
+  font-family: "Zain", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 80px;
+  color: #fefae0;
+  -webkit-text-stroke: 2px #283618;
+}
+
+.semi-title{
+  font-family: "Zain", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  position: absolute;
+  font-size: 40px;
+  left: 20px;
+  top: 400px;
+  color: #dda15e;
+  -webkit-text-stroke: 2px #283618;
+  transition: top 1.5s ease-in-out;
+}
+.semi-title:hover{
+  top: 380px;
+  cursor: pointer;
+}
+
+.div1{
+  width: 1500px;
+  position: absolute;
+  top: 500px;
+  left: 20px;
+}
+
+.me{
+  font-family: "Zain", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  position: absolute;
+  font-size: 30px;
+  color: #bc6c25;
+}
+ 
+.proj{
+  font-family: "Zain", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  position: absolute;
+  font-size: 40px;
+  left: 20px;
+  top: 870px;
+  color: #dda15e;
+  -webkit-text-stroke: 2px #283618;
+  transition: top 1.5s ease-in-out;
+}.proj:hover{
+  top: 850px;
+  cursor: pointer; 
+}
+
+.link1{
+  width: 350px;
+  border-radius: 30px;
+  position: absolute;
+  top: 970px;
+  left: 20px;
+  transition: transform 0.8s;
+}
+.link1:hover{
+  transform: scale(1.1);
+}
+
+.div2{
+  position: absolute;
+  top: 970px;
+  width: 1050px;
+  left: 400px;
+
+}
+.proj1{
+  font-size: 25px;
+  color: #bc6c25;
+}
+
+.tech{
+
+  position: absolute;
+  top: 1150px;
+  font-size: 40px;
+  left: 20px;
+  color: #dda15e;
+  transition: top 1.5s ease-in-out;
+}
+.tech:hover{
+  top: 1111px;
+  cursor: pointer; 
+}
+
+.div3{
+  width: 1500px;
+  position: absolute;
+  top: 1250px;
+  left: 20px;
+}
+.proj5{
+  font-family: "Zain", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
+  position: absolute;
+  font-size: 30px;
+  color: #bc6c25;
+}
+
+.autoType {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color: #dda15e;
+  -webkit-text-stroke: .5px #bc6c25;
+}
+
+.ig{
+  position: absolute;
+  width: 100px;
+  top: 1570px;
+  left: 600px;
+  transition: transform 0.8s;
+}
+.ig:hover{
+  transform: scale(1.1);
+}
+.contact{
+  position: absolute;
+  top: 1460px;
+  font-size: 40px;
+  left: 20px;
+  color: #dda15e;
+  transition: top 1.5s ease-in-out;
+}
+.plat{
+  width: 400px;
+  position: absolute;
+  top: 1600px;
+  left: 20px;
+  font-size: 30px;
+  color: #bc6c25;
+}
+
+
+@media (max-width: 1000px) {
+  body {
+    background-color: #283618;
+    font-family: "Zain", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+  }
+
+  .title {
+    font-family: "Zain", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 80px;
+    color: #fefae0;
+    -webkit-text-stroke: 2px #283618;
+  }
+
+  .semi-title {
+    font-family: "Zain", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    position: absolute;
+    font-size: 40px;
+    left: 20px;
+    top: 450px;
+    color: #dda15e;
+    -webkit-text-stroke: 2px #283618;
+    transition: top 1.5s ease-in-out;
+  }
+  .semi-title:hover {
+    top: 380px;
+    cursor: pointer;
+  }
+
+  .div1 {
+    width: 300px;
+    position: absolute;
+    top: 550px;
+    left: 20px;
+  }
+
+  .me {
+    font-family: "Zain", sans-serif;
+    font-weight: 1500px;
+    font-style: normal;
+    position: absolute;
+    font-size: 12px;
+    color: #bc6c25;
+  }
+
+  .proj {
+    font-family: "Zain", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    position: absolute;
+    font-size: 35px;
+    left: 20px;
+    top: 870px;
+    color: #dda15e;
+    -webkit-text-stroke: 2px #283618;
+    transition: top 1.5s ease-in-out;
+  }
+  .proj:hover {
+    top: 850px;
+    cursor: pointer; 
+  }
+
+  .link1 {
+    width: 150px;
+    border-radius: 30px;
+    position: absolute;
+    top: 970px;
+    left: 20px;
+    transition: transform 0.8s;
+  }
+  .link1:hover {
+    transform: scale(1.1);
+  }
+
+  .div2 {
+    position: absolute;
+    top: 1050px;
+    width: 250px;
+    left: 20px;
+  }
+  .proj1 {
+    font-size: 12px;
+    color: #bc6c25;
+  }
+
+  .tech {
+    position: absolute;
+    top: 1200px;
+    font-size: 30px;
+    left: 20px;
+    color: #dda15e;
+    transition: top 1.5s ease-in-out;
+  }
+  .tech:hover {
+    top: 1190px;
+    cursor: pointer; 
+  }
+
+  .div3 {
+    width: 300px;
+    position: absolute;
+    top: 1250px;
+    left: 20px;
+  }
+  .proj5 {
+    font-family: "Zain", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    position: absolute;
+    font-size: 12px;
+    color: #bc6c25;
+  }
+
+  .autoType {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: #a86d2a;
+    -webkit-text-stroke: 0.5px #bc6c25;
+  }
+
+  .plat{
+    width: 170px;
+    position: absolute;
+    top: 1460px;
+    left: 20px;
+    font-size: 13px;
+    color: #bc6c25;
+}
+
+.contact{
+  position: absolute;
+  top: 1400px;
+  font-size: 25px;
+  left: 20px;
+  color: #dda15e;
+  transition: top 1.5s ease-in-out;
+}
+.contact:hover{
+  top: 1390px;
+  cursor: pointer; 
+}
+
+}
